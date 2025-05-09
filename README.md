@@ -85,7 +85,7 @@ $ flutter run
 2. GMS状态为0
 3. 手机支持科学上网
 
-> Andriod 13+会有下图弹窗，低于此版本的请通过手机配置打开app通知
+> Andriod 13+会有下图弹窗，低于此版本的没有这个弹窗，请通过手机配置打开app通知
 <p align="center">
   <img src="img/notification.png" alt="Notification UI" style="width:50%">
 </p>
