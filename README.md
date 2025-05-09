@@ -80,6 +80,10 @@ $ flutter pub get
 # 编译并运行应用到连接的设备或模拟器上
 $ flutter run
 ```
+目前个人经验满足下述三个条件，手机才能正常收到FCM推送
+1. 系统打开app通知
+2. GMS状态为0
+3. 手机支持科学上网
 
 > Andriod 13+会有下图弹窗，低于此版本的请通过手机配置打开app通知
 <p align="center">
@@ -96,8 +100,8 @@ $ flutter run
   <img src="img/gms_state.png" alt="GMS State UI" style="width:50%">
 </p>
 
+> Pixel 3a演示视频，包括打开app、将app切入后台运行以及彻底关闭app进程三种场景，验证显示此三种场景下均可以收到推送 
 
-> Pixel 3a演示视频，包括打开app、将app切入后台运行以及彻底关闭app进程三种场景，验证显示此三种场景下均可以收到推送
 https://github.com/user-attachments/assets/b518b618-d4a7-4032-93e2-097e8f45b960
 
 > 使用oppo实体机演示，在打开app和将app切入后台运行是可以收到推送的；但是彻底关闭app进程后是收不到FCM推送[TODO]
