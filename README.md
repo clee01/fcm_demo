@@ -104,5 +104,5 @@ $ flutter run
 
 https://github.com/user-attachments/assets/b518b618-d4a7-4032-93e2-097e8f45b960
 
-> 使用oppo实体机演示，在打开app和将app切入后台运行是可以收到推送的；但是彻底关闭app进程后是收不到FCM推送[TODO]
+> 使用oppo实体机演示，在打开app和将app切入后台运行是可以收到推送的；但是彻底关闭app进程后是收不到FCM推送[TODO: 目前忽略]
 
