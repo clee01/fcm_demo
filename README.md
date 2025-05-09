@@ -78,8 +78,14 @@ $ flutter pub get
 $ flutter run
 ```
 
-![image](img/notification.png)
+<p align="center">
+  <img src="img/notification.png" alt="Notification UI" width="600">
+</p>
 
-![image](img/fcm_token.png)
+<p align="center">
+  <img src="img/fcm_token.png" alt="FCM Token UI" width="600">
+</p>
 
-![image](img/gms_state.png)
+<p align="center">
+  <img src="img/gms_state.png" alt="GMS State UI" width="600">
+</p>
