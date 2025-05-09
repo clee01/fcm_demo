@@ -71,26 +71,34 @@ $ flutter doctor -v
 
 ## Getting Started
 ```shell
+# 清除Flutter项目的构建缓存和生成文件
 $ flutter clean
 
+# 安装pubspec.yaml中声明的依赖项
 $ flutter pub get
 
+# 编译并运行应用到连接的设备或模拟器上
 $ flutter run
 ```
 
+> Andriod 13+会有下图弹窗，低于此版本的请通过手机配置打开app通知
 <p align="center">
   <img src="img/notification.png" alt="Notification UI" style="width:50%">
 </p>
 
+> 显式获取FCM Token，用于Firebase推送
 <p align="center">
   <img src="img/fcm_token.png" alt="FCM Token UI" style="width:50%">
 </p>
 
+> 状态为0说明手机支持FCM推送
 <p align="center">
   <img src="img/gms_state.png" alt="GMS State UI" style="width:50%">
 </p>
 
 
-
+> Pixel 3a演示视频，包括打开app、将app切入后台运行以及彻底关闭app进程三种场景，验证显示此三种场景下均可以收到推送
 https://github.com/user-attachments/assets/b518b618-d4a7-4032-93e2-097e8f45b960
+
+> 使用oppo实体机演示，在打开app和将app切入后台运行是可以收到推送的；但是彻底关闭app进程后是收不到FCM推送[TODO]
 
